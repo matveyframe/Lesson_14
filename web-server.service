@@ -1,0 +1,13 @@
+[Unit]
+Description= web-server
+After=network-online.target
+
+[Service]
+User=webadmin
+Group=webgroup
+WorkingDirectory=/var/www/http_service
+ExecStart=/var/www/http_server/app/venv/bin/python /var/www/http_server/app/http_server.py
+Restart=Always
+
+[Install]
+WantedBy=multi-user.target
