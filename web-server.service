@@ -6,7 +6,7 @@ After=network-online.target
 User=webadmin
 Group=webgroup
 WorkingDirectory=/var/www/http_service
-ExecStart=/var/www/http_server/app/venv/bin/python /var/www/http_server/app/http_server.py
+ExecStart=/opt/srv/webapp/venv/bin/python /opt/srv/webapp/web_server.py
 Restart=Always
 
 [Install]
