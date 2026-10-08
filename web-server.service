@@ -5,7 +5,7 @@ After=network-online.target
 [Service]
 User=webadmin
 Group=webgroup
-WorkingDirectory=/var/www/http_service
+WorkingDirectory=/opt/srv/webapp/http_service
 ExecStart=/opt/srv/webapp/venv/bin/python /opt/srv/webapp/web_server.py
 Restart=Always
 
