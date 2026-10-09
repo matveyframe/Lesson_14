@@ -94,5 +94,7 @@ deploy_app
 
 ```
 
+![](https://github.com/matveyframe/Lesson_14/blob/main/web-server_console_result.PNG "Logo Title Text 1")
+
 ![](https://github.com/matveyframe/Lesson_14/blob/main/web-server_result.PNG "Logo Title Text 1")
-![](https://github.com/matveyframe/Lesson_14/blob/main/web-server_result.PNG "Logo Title Text 1")
+
